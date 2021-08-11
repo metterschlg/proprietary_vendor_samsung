@@ -19,6 +19,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libGLES_mali
+LOCAL_CHECK_ELF_FILES := false
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/system/vendor/lib/egl/libGLES_mali.so
 LOCAL_MODULE_TAGS := optional
